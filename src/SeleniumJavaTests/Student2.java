@@ -1,6 +1,6 @@
 package SeleniumJavaTests;
 
-public class Student {
+public class Student2 {
 	
 	int add(int a,int b)
 	{
@@ -12,9 +12,9 @@ public class Student {
 	
 	public static void main(String[] args)  {
 		
-		Student S = new Student();
+		Student2 S = new Student2();
 	
-		int result = S.add(10,20);  //call the add(10,20) 
+		int result = S.add(10,20);  //30
 		
 		System.out.println(result);
 	}
