@@ -14,7 +14,7 @@ public class Student {
 		
 		Student S = new Student();
 	
-		int result = S.add(10,20);  //30
+		int result = S.add(10,20);  //call the add(10,20) 
 		
 		System.out.println(result);
 	}
